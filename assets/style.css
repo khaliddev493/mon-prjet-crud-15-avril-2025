@@ -40,8 +40,8 @@ nav {height: 180px;
     justify-content: center;
     align-items: center;
     padding: 20px 40px;
-    background-color: var(--color-primary);
-    color: #fff;
+    background :  rgba(49, 25, 202, 0.513);
+    color: white
 }
 
 nav ul {
@@ -73,7 +73,8 @@ nav ul li a {
 
 nav ul li a:hover{
     transform: scale(1.2);
-    color: #891d1d;
+    color: #15118b;
+    letter-spacing: 6px ;
 }
 
 .container {
@@ -88,13 +89,14 @@ nav ul li a:hover{
 .container h1 {
     font-size: 5rem;
     margin-bottom: 2rem;
-    color: rgba(188, 65, 65, 0.751);
+    color: rgba(106, 44, 136, 0.625);
 }
 
 .container h2 {
-    font-size: 2rem;
+    font-size: 4rem;
     margin-bottom: 2rem;
-    color: var(--color-secondary);
+    color: violet;
+    letter-spacing:2px ;
 }
 
 .container p {
@@ -150,4 +152,16 @@ button:hover {
 .card{
     border: #4a90e2 solid 2px;
     background: linear-gradient(rgba(116, 116, 167, 0.344) , rgba(200, 200, 75, 0.779));
+}
+.card h2{
+    color: #c32c57b6;
+    text-transform: capitalize;
+    text-align: center;
+}
+.card p{
+    font-size: 1.2em;
+    color: #5c2cc3b6;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 600;
 }
